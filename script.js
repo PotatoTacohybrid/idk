@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $("#button").click(function() {
     var  variable = $("#input").val();
-
+    
     if (!variable) {
       writeToLog("Please enter fields", "alert")
     }
